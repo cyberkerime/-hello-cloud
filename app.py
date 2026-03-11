@@ -4,4 +4,7 @@ app = Flask(__name__)
 @app.route('/')
 def home ():
   return " Merhaba,Buluttan selam !"
-  
+
+  app.route('/about')
+def about ():
+  return " sayfayı görüntülediniz."
